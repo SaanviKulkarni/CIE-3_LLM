@@ -1,0 +1,32 @@
+{
+  "stage": 4,
+  "requested_cases": 40,
+  "successful_transliterations": 40,
+  "failed_transliterations": 0,
+  "exact_sentence_matches": 10,
+  "mean_sentence_cer": 0.09929859999999999,
+  "corpus_cer": 0.08859223300970874,
+  "mean_word_accuracy": 0.7355303,
+  "word_count_mismatches": 0,
+  "param1_failures": 0,
+  "indictrans2_failures": 0,
+  "english_evaluated_count": 40,
+  "corpus_bleu": 43.50651324844944,
+  "translation_sources": [
+    "Param1 improved Hindi"
+  ],
+  "observed_error_types": {
+    "other spelling": 28,
+    "ऑ vs ओ/आ (English vowel)": 3,
+    "vowel length (इ/ई, उ/ऊ)": 2
+  },
+  "wall_time_s": 230.6,
+  "environment": {
+    "python": "3.10.22",
+    "machine": "arm64",
+    "torch": "2.14.1",
+    "transformers": "4.49.0",
+    "tokenizers": "0.21.4"
+  },
+  "metric_notes": "CER/word accuracy compare raw IndicXlit output with hand-written references (Param1 output is never scored against them). BLEU compares IndicTrans2 output with hand-written English references; see translation_sources for its input. error_type labels describe observed character differences, not verified causes."
+}

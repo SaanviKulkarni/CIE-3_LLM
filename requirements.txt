@@ -1,0 +1,11 @@
+# Direct dependencies only. Install torch, fairseq and IndicTransToolkit first, per README §4 (or run setup_mac.sh).
+streamlit>=1.32,<2
+ai4bharat-transliteration
+# Lower bound: tokenizers 0.20+ is needed to read Param1's tokenizer.json ("ModelWrapper" error).
+# Upper bound: v4.50 removed .generate() from remote-code models such as ParamBharatGenForCausalLM.
+# Exact tested version: record from `pip freeze` once all three models have run (README §10).
+transformers>=4.45,<4.50
+huggingface-hub
+sentencepiece
+sacremoses
+sacrebleu>=2,<3

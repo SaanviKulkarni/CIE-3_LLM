@@ -1,0 +1,41 @@
+id,category,roman_hinglish,expected_hindi,expected_english
+1,simple,kal mera exam hai,कल मेरा एग्जाम है,My exam is tomorrow.
+2,simple,mujhe ghar jana hai,मुझे घर जाना है,I need to go home.
+3,simple,aaj mausam acha hai,आज मौसम अच्छा है,The weather is good today.
+4,simple,main theek hoon,मैं ठीक हूँ,I am fine.
+5,simple,tum kahan ho,तुम कहाँ हो,Where are you?
+6,hindi-heavy,mujhe bahut bhook lagi hai,मुझे बहुत भूख लगी है,I am very hungry.
+7,hindi-heavy,woh kal yahan aayega,वो कल यहाँ आएगा,He will come here tomorrow.
+8,hindi-heavy,hum sab saath chalenge,हम सब साथ चलेंगे,We will all go together.
+9,hindi-heavy,maine use sach bataya,मैंने उसे सच बताया,I told him the truth.
+10,hindi-heavy,aap kaise hain,आप कैसे हैं,How are you?
+11,english-heavy,mera laptop slow hai,मेरा लैपटॉप स्लो है,My laptop is slow.
+12,english-heavy,please meeting join karo,प्लीज मीटिंग जॉइन करो,Please join the meeting.
+13,english-heavy,project deadline kal hai,प्रोजेक्ट डेडलाइन कल है,The project deadline is tomorrow.
+14,english-heavy,main online class mein hoon,मैं ऑनलाइन क्लास में हूँ,I am in an online class.
+15,english-heavy,mera phone charge nahi hai,मेरा फोन चार्ज नहीं है,My phone is not charged.
+16,spelling variation,mera naam rahul hai,मेरा नाम राहुल है,My name is Rahul.
+17,spelling variation,muje pani chahiye,मुझे पानी चाहिए,I want water.
+18,spelling variation,ap kaha ja rahe ho,आप कहाँ जा रहे हो,Where are you going?
+19,spelling variation,mai ghar pe hu,मैं घर पे हूँ,I am at home.
+20,spelling variation,bht accha laga,बहुत अच्छा लगा,It felt very good.
+21,informal,kya scene hai,क्या सीन है,What's going on?
+22,informal,yaar jaldi aa,यार जल्दी आ,Friend come quickly.
+23,informal,abhi free ho kya,अभी फ्री हो क्या,Are you free right now?
+24,informal,chalo milte hain,चलो मिलते हैं,Let's meet.
+25,informal,bas ab ho gaya,बस अब हो गया,That's enough now.
+26,ambiguous,kal main aaya tha,कल मैं आया था,I came yesterday.
+27,ambiguous,usne aam khaya,उसने आम खाया,He ate a mango.
+28,ambiguous,ghar par baat karna,घर पर बात करना,Talk at home.
+29,ambiguous,woh pass ho gaya,वो पास हो गया,He passed.
+30,ambiguous,mera dil bhar gaya,मेरा दिल भर गया,My heart is full.
+31,student,assignment submit karna hai,असाइनमेंट सबमिट करना है,I have to submit the assignment.
+32,student,kal lecture cancel hai,कल लेक्चर कैंसल है,Tomorrow's lecture is cancelled.
+33,student,exam ke liye padh raha hoon,एग्जाम के लिए पढ़ रहा हूँ,I am studying for the exam.
+34,student,professor ne mail bheja hai,प्रोफेसर ने मेल भेजा है,The professor has sent an email.
+35,student,lab report ready hai,लैब रिपोर्ट रेडी है,The lab report is ready.
+36,long,agar tum jaldi aaoge toh hum library mein saath padhenge,अगर तुम जल्दी आओगे तो हम लाइब्रेरी में साथ पढ़ेंगे,If you come early we will study together in the library.
+37,long,main kal subah train se delhi ja raha hoon,मैं कल सुबह ट्रेन से दिल्ली जा रहा हूँ,I am going to Delhi by train tomorrow morning.
+38,long,aaj college ke baad mujhe apna project complete karna hai,आज कॉलेज के बाद मुझे अपना प्रोजेक्ट कंप्लीट करना है,I have to finish my project after college today.
+39,long,mujhe samajh nahi aa raha ki ye question kaise solve karu,मुझे समझ नहीं आ रहा कि ये क्वेश्चन कैसे सॉल्व करूँ,I do not understand how to solve this question.
+40,long,hamare group ne presentation ke liye sabhi slides taiyar kar li hain,हमारे ग्रुप ने प्रेजेंटेशन के लिए सभी स्लाइड्स तैयार कर ली हैं,Our group has prepared all the slides for the presentation.

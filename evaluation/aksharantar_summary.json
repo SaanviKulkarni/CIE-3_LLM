@@ -1,0 +1,27 @@
+{
+  "source_file": "hin_test.json",
+  "pool_size": 10112,
+  "sampled": 500,
+  "seed": 13,
+  "evaluated": 500,
+  "errors": 0,
+  "top1_word_accuracy": 0.608,
+  "mean_word_cer": 0.10450817199999997,
+  "corpus_cer": 0.09093567251461988,
+  "observed_error_types": {
+    "other spelling": 158,
+    "vowel length (इ/ई, उ/ऊ)": 14,
+    "ऑ vs ओ/आ (English vowel)": 3,
+    "halant/schwa (्)": 7,
+    "nukta (़)": 13,
+    "chandrabindu/anusvara (ँ vs ं)": 1
+  },
+  "environment": {
+    "python": "3.10.22",
+    "machine": "arm64",
+    "torch": "2.14.1",
+    "transformers": "4.49.0",
+    "tokenizers": "0.21.4"
+  },
+  "notes": "Word-level: one Aksharantar reference per word, so valid alternative spellings count as errors."
+}
